@@ -21,7 +21,7 @@ export default function TodoAdd({ handleAdd }) {
         onChange={handleChange}
         className='inp_txt'
       />
-      <button type='button' className='btn_add'>
+      <button type='submit' className='btn_add'>
         ADD
       </button>
     </form>
